@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://odin.dreamurl.biz/sitemap.xml

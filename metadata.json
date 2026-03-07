@@ -1,0 +1,32 @@
+{
+  "name": "Odin Desktop",
+  "description": "AI-powered local file search and natural language communication system. Search and converse with your documents using local LLM technology.",
+  "url": "https://odin.dreamurl.biz",
+  "author": "Odin AI",
+  "keywords": [
+    "AI",
+    "file search",
+    "local LLM",
+    "document analysis",
+    "Ollama",
+    "LangChain",
+    "privacy",
+    "desktop app",
+    "natural language search",
+    "document Q&A"
+  ],
+  "og": {
+    "title": "Odin Desktop - AI-Powered Local File Search & Document Analysis",
+    "description": "Local LLM-based file search and natural language communication system. No cloud uploads - all processing happens on your computer for complete privacy.",
+    "image": "/og-image.png",
+    "type": "website",
+    "siteName": "Odin Desktop"
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "title": "Odin Desktop - AI-Powered Local File Search & Document Analysis",
+    "description": "Local LLM-based file search and natural language communication system. No cloud uploads - all processing happens on your computer for complete privacy.",
+    "image": "/og-image.png"
+  },
+  "requestFramePermissions": []
+}
