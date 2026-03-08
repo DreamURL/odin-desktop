@@ -1,7 +1,7 @@
 import React from 'react';
-import { 
-  Search, FileText, ShieldCheck, MessageSquare, Zap, Layout, 
-  Briefcase, GraduationCap, Code, User, ArrowRight, Database, 
+import {
+  Search, FileText, ShieldCheck, MessageSquare, Zap, Layout,
+  Briefcase, GraduationCap, Code, User, ArrowRight,
   ServerOff, Lock, HardDrive, Sparkles
 } from 'lucide-react';
 
@@ -46,57 +46,9 @@ export default function App() {
           Get Started with Odin <ArrowRight size={18} />
         </a>
 
-        {/* Hero Mockup */}
-        <div className="w-full max-w-5xl mx-auto mt-16 md:mt-20 rounded-2xl overflow-hidden border border-black/10 shadow-2xl bg-white flex flex-col h-[500px] md:h-[600px] text-left">
-          {/* Header */}
-          <div className="h-12 border-b border-black/5 flex items-center px-4 gap-2 bg-[#fdfcfb]">
-            <div className="w-3 h-3 rounded-full bg-[#ff5f56]"></div>
-            <div className="w-3 h-3 rounded-full bg-[#ffbd2e]"></div>
-            <div className="w-3 h-3 rounded-full bg-[#27c93f]"></div>
-            <div className="mx-auto text-xs font-medium text-gray-400 font-mono">Odin Desktop</div>
-          </div>
-          {/* Body */}
-          <div className="flex flex-1 overflow-hidden">
-            {/* Sidebar */}
-            <div className="w-64 border-r border-black/5 p-4 bg-[#fdfcfb] hidden md:block">
-              <div className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-4 mt-2">Indexed Locations</div>
-              <div className="space-y-1">
-                <div className="flex items-center gap-3 text-sm text-gray-800 bg-gray-100/80 p-2.5 rounded-lg font-medium">
-                  <Database size={16} className="text-gray-500"/> Project Alpha
-                </div>
-                <div className="flex items-center gap-3 text-sm text-gray-600 p-2.5 hover:bg-gray-50 rounded-lg cursor-pointer transition-colors">
-                  <Database size={16} className="text-gray-400"/> Financial Reports
-                </div>
-                <div className="flex items-center gap-3 text-sm text-gray-600 p-2.5 hover:bg-gray-50 rounded-lg cursor-pointer transition-colors">
-                  <Database size={16} className="text-gray-400"/> Research Papers
-                </div>
-              </div>
-            </div>
-            {/* Main Chat */}
-            <div className="flex-1 flex flex-col bg-white relative">
-              <div className="flex-1 p-4 md:p-8 overflow-y-auto space-y-8 pb-32">
-                <div className="flex gap-4 max-w-3xl mx-auto w-full">
-                  <div className="w-8 h-8 rounded-full bg-gray-100 flex items-center justify-center shrink-0 border border-gray-200"><User size={14} className="text-gray-600"/></div>
-                  <div className="pt-1.5 text-gray-800 text-[15px] leading-relaxed">What product had the highest revenue growth in last year's Q4 sales report?</div>
-                </div>
-                <div className="flex gap-4 max-w-3xl mx-auto w-full">
-                  <div className="w-8 h-8 rounded-full bg-black text-white flex items-center justify-center shrink-0 font-serif text-sm">O</div>
-                  <div className="pt-1.5 text-gray-800 space-y-4 text-[15px] leading-relaxed w-full">
-                    <p>Based on the <span className="text-blue-600 bg-blue-50 px-1.5 py-0.5 rounded cursor-pointer text-sm font-medium border border-blue-100">Q4_Sales_Report_2023.pdf</span>, the product with the highest revenue growth was <strong>Projector Pro X</strong>.</p>
-                    <div className="p-4 border border-gray-100 rounded-xl bg-[#fdfcfb] text-sm text-gray-600 shadow-sm">
-                      "The Projector Pro X saw an unprecedented 142% year-over-year growth in Q4, driven primarily by enterprise bulk orders in the APAC region..."
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="absolute bottom-0 left-0 right-0 p-4 md:p-6 bg-gradient-to-t from-white via-white to-transparent pt-12">
-                <div className="max-w-3xl mx-auto relative shadow-lg rounded-2xl">
-                  <input type="text" placeholder="Ask anything about your documents..." className="w-full pl-5 pr-12 py-4 rounded-2xl border border-gray-200 bg-white focus:outline-none focus:ring-2 focus:ring-black/5 text-[15px]" readOnly />
-                  <button className="absolute right-3 top-1/2 -translate-y-1/2 p-2 bg-black text-white rounded-xl hover:bg-gray-800 transition-colors"><ArrowRight size={16}/></button>
-                </div>
-              </div>
-            </div>
-          </div>
+        {/* Hero Screenshot */}
+        <div className="w-full max-w-5xl mx-auto mt-16 md:mt-20 rounded-2xl overflow-hidden border border-black/10 shadow-2xl">
+          <img src="/image/results.png" alt="Odin Desktop - AI-powered file search and document Q&A" className="w-full h-auto block" />
         </div>
       </section>
 
