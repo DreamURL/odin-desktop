@@ -28,7 +28,7 @@ export default function App() {
           <a href="#use-cases" className="hover:text-black transition-colors">Use Cases</a>
           <a href="#security" className="hover:text-black transition-colors">Security</a>
         </div>
-        <a href="https://github.com/DreamURL/odin-desktop/releases/latest" target="_blank" rel="noopener noreferrer" className="bg-black text-white px-5 py-2.5 rounded-full text-sm font-medium hover:bg-gray-800 transition-colors no-underline">
+        <a href="https://github.com/DreamURL/odin-desktop/releases/latest/download/Odin_Setup.exe" target="_blank" rel="noopener noreferrer" className="bg-black text-white px-5 py-2.5 rounded-full text-sm font-medium hover:bg-gray-800 transition-colors no-underline">
           Download Free
         </a>
       </nav>
@@ -42,7 +42,7 @@ export default function App() {
         <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto mb-10 leading-relaxed">
           An AI desktop application that truly understands your files. Stop wandering through folders and start conversing with your knowledge base in natural language.
         </p>
-        <a href="https://github.com/DreamURL/odin-desktop/releases/latest" target="_blank" rel="noopener noreferrer" className="bg-black text-white px-8 py-4 rounded-full text-base font-medium hover:bg-gray-800 transition-colors flex items-center gap-2 mx-auto no-underline">
+        <a href="https://github.com/DreamURL/odin-desktop/releases/latest/download/Odin_Setup.exe" target="_blank" rel="noopener noreferrer" className="bg-black text-white px-8 py-4 rounded-full text-base font-medium hover:bg-gray-800 transition-colors flex items-center gap-2 mx-auto no-underline">
           Get Started with Odin <ArrowRight size={18} />
         </a>
 
@@ -167,7 +167,7 @@ export default function App() {
           </div>
         </div>
 
-        <a href="https://github.com/DreamURL/odin-desktop/releases/latest" target="_blank" rel="noopener noreferrer" className="bg-black text-white px-8 py-4 rounded-full text-base font-medium hover:bg-gray-800 transition-colors flex items-center gap-2 mx-auto no-underline">
+        <a href="https://github.com/DreamURL/odin-desktop/releases/latest/download/Odin_Setup.exe" target="_blank" rel="noopener noreferrer" className="bg-black text-white px-8 py-4 rounded-full text-base font-medium hover:bg-gray-800 transition-colors flex items-center gap-2 mx-auto no-underline">
           Download Odin Free <ArrowRight size={18} />
         </a>
       </section>
