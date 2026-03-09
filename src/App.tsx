@@ -5,8 +5,9 @@ import {
   ServerOff, Lock, HardDrive, Sparkles, Cpu, Database
 } from 'lucide-react';
 
-const DOWNLOAD_URL = "https://github.com/DreamURL/odin-desktop/releases/latest/download/Odin_Setup.exe";
+const DOWNLOAD_URL = "https://github.com/DreamURL/odin/releases/latest/download/Odin_Setup.exe";
 const GITHUB_URL = "https://github.com/DreamURL/odin-desktop";
+const SOURCE_URL = "https://github.com/DreamURL/odin";
 
 function Pill({ children, icon: Icon }: { children: React.ReactNode, icon?: React.ElementType }) {
   return (
@@ -31,9 +32,14 @@ export default function App() {
             <Github size={16} /> GitHub
           </a>
         </div>
-        <a href={DOWNLOAD_URL} target="_blank" rel="noopener noreferrer" className="bg-black text-white px-5 py-2.5 rounded-full text-sm font-medium hover:bg-gray-800 transition-colors no-underline">
-          Download for Windows
-        </a>
+        <div className="flex items-center gap-3">
+          <a href={DOWNLOAD_URL} target="_blank" rel="noopener noreferrer" className="bg-black text-white px-5 py-2.5 rounded-full text-sm font-medium hover:bg-gray-800 transition-colors no-underline">
+            Download for Windows
+          </a>
+          <a href={SOURCE_URL} target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full border border-black/10 flex items-center justify-center hover:bg-black hover:text-white transition-colors text-gray-700" title="Source Code">
+            <Github size={18} />
+          </a>
+        </div>
       </nav>
 
       {/* Hero Section */}
@@ -45,9 +51,14 @@ export default function App() {
         <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto mb-10 leading-relaxed">
           A desktop app that indexes every file on your drives and lets you chat with documents using a local AI. No cloud, no subscriptions, no data leaves your machine.
         </p>
-        <a href={DOWNLOAD_URL} target="_blank" rel="noopener noreferrer" className="bg-black text-white px-8 py-4 rounded-full text-base font-medium hover:bg-gray-800 transition-colors flex items-center gap-2 mx-auto no-underline">
-          Download for Windows <ArrowRight size={18} />
-        </a>
+        <div className="flex items-center justify-center gap-4">
+          <a href={DOWNLOAD_URL} target="_blank" rel="noopener noreferrer" className="bg-black text-white px-8 py-4 rounded-full text-base font-medium hover:bg-gray-800 transition-colors flex items-center gap-2 no-underline">
+            Download for Windows <ArrowRight size={18} />
+          </a>
+          <a href={SOURCE_URL} target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full border border-black/10 flex items-center justify-center hover:bg-black hover:text-white transition-colors text-gray-700" title="Source Code">
+            <Github size={22} />
+          </a>
+        </div>
 
         {/* Hero Screenshot */}
         <div className="w-full max-w-5xl mx-auto mt-16 md:mt-20 rounded-2xl overflow-hidden border border-black/10 shadow-2xl">
@@ -198,9 +209,10 @@ export default function App() {
       <footer className="py-10 md:py-12 px-6 md:px-8 border-t border-black/5 flex flex-col md:flex-row items-center justify-between gap-6 max-w-7xl mx-auto text-sm text-gray-500">
         <span className="font-serif font-semibold text-gray-900">Odin Desktop</span>
         <div className="flex flex-wrap justify-center gap-6">
-          <a href={GITHUB_URL} target="_blank" rel="noopener noreferrer" className="hover:text-black transition-colors">GitHub</a>
-          <a href={`${GITHUB_URL}/issues`} target="_blank" rel="noopener noreferrer" className="hover:text-black transition-colors">Report a Bug</a>
-          <a href={`${GITHUB_URL}/releases`} target="_blank" rel="noopener noreferrer" className="hover:text-black transition-colors">Releases</a>
+          <a href={SOURCE_URL} target="_blank" rel="noopener noreferrer" className="hover:text-black transition-colors">Source Code</a>
+          <a href={GITHUB_URL} target="_blank" rel="noopener noreferrer" className="hover:text-black transition-colors">Website Repo</a>
+          <a href={`${SOURCE_URL}/issues`} target="_blank" rel="noopener noreferrer" className="hover:text-black transition-colors">Report a Bug</a>
+          <a href={`${SOURCE_URL}/releases`} target="_blank" rel="noopener noreferrer" className="hover:text-black transition-colors">Releases</a>
           <a href="/privacy.html" className="hover:text-black transition-colors">Privacy Policy</a>
         </div>
         <div>&copy; {new Date().getFullYear()} Odin Desktop</div>
