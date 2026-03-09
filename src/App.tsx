@@ -28,9 +28,6 @@ export default function App() {
           <a href="#features" className="hover:text-black transition-colors">Features</a>
           <a href="#how-it-works" className="hover:text-black transition-colors">How It Works</a>
           <a href="#tech" className="hover:text-black transition-colors">Tech</a>
-          <a href={GITHUB_URL} target="_blank" rel="noopener noreferrer" className="hover:text-black transition-colors flex items-center gap-1.5">
-            <Github size={16} /> GitHub
-          </a>
         </div>
         <div className="flex items-center gap-3">
           <a href={DOWNLOAD_URL} target="_blank" rel="noopener noreferrer" className="bg-black text-white px-5 py-2.5 rounded-full text-sm font-medium hover:bg-gray-800 transition-colors no-underline">
